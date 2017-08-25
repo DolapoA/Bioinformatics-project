@@ -3,6 +3,10 @@ use strict;
 use warnings;
 use Regexp::Common qw /number/;
 
+#####################################################
+### For use on 2ndScore Hairpin files             ###
+#####################################################
+
 ##Ask user for maximum energy score
 print "Enter limit: ";
 chomp( my $limit = <STDIN> );
