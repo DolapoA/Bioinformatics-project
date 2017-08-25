@@ -2,6 +2,10 @@
 use strict;
 use warnings;
 
+###########################################
+### For use on Palindrom analyser files ###
+###########################################
+
 #This script calculates the number of repeats per sequence
 #First: Grabs relevant files with specific suffix and stores in an array
 my @pal_files = glob("*palindromes.csv");
