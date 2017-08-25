@@ -4,6 +4,11 @@ use warnings;
 use Data::Dumper;
 use Regexp::Common qw /number/;
 
+#####################################################
+### For use on 2ndScore Hairpin files             ###
+#####################################################
+
+
 ##Capture desired data
 my $HairpinData = qr/^\s*($RE{num}{real})\s+  # energy
 						 ($RE{num}{int})\s+ # start
