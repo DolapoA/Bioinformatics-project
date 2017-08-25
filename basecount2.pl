@@ -2,7 +2,9 @@
 use strict;
 use warnings;
 
-
+###########################################
+### For use on fasta files              ###
+###########################################
 
 open F, "human_hg19_circRNAs_putative_spliced_sequence.fa", or die $!;
 
