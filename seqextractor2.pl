@@ -2,6 +2,10 @@
 use strict;
 use warnings;
 
+###########################################
+### For use on Palindrom analyser files ###
+###########################################
+
 #Since Palindrome analyser is unable to analyse a fasta file with multiple sequences
 #this script was written to extract sequences from a multi-fasta file into separate files
 #for analysis
