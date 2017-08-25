@@ -2,6 +2,10 @@
 use strict;
 use warnings;
 
+###########################################
+### For use on Palindrom analyser files ###
+###########################################
+
 #Grab files with specific suffix and shove into an array
 my @pal_files = glob("*palindromes.csv");
 
