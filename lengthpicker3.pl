@@ -2,8 +2,13 @@
 use strict;
 use warnings;
 
-##Invoking subroutines
 
+###########################################
+### For use on fasta files              ###
+###########################################
+
+
+##Invoking subroutines
 
 my %seq = HashSequences();
 SpecifySeqLengths();
