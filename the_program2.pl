@@ -7,6 +7,10 @@ use Regexp::Common qw /number/;
 use List::Util qw (notall reduce);
 use feature 'say';
 
+#####################################################
+### For use on 2ndScore Hairpin files             ###
+#####################################################
+
 
 ## Captures the Header of the circRNA sequence
 my $SeqName = qr/ 
